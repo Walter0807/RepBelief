@@ -1,0 +1,8 @@
+scipy
+seaborn
+matplotlib
+pandas
+pydantic
+transformers
+nnsight
+ipdb

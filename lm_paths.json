@@ -1,0 +1,4 @@
+{
+  "Mistral-7B-Instruct-v0.2": "./models/Mistral-7B-Instruct-v0.2",
+  "deepseek-llm-7b-chat": "./models/deepseek-llm-7b-chat"
+}

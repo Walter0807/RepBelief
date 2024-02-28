@@ -1,0 +1,15 @@
+.DS_Store
+*.pyc
+data/results
+data/representations
+data/results/probe
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# satisfy github size req 
+find . -size +100M | cat >> .gitignore
+
+# ignore all __pycache__ folders
+__pycache__/
