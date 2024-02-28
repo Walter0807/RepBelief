@@ -47,7 +47,7 @@ Answer:"""
         coefs_all = normalize_vectors(coefs_all)
         coefs_multinomial = normalize_vectors(coefs_multinomial)
     
-        if 'multi' in args.direction:
+        if 'multi' in args.direction or 'random' in args.direction:
             top_heads = find_largest_k_items(val_acc_multinomial, args.K)
         else:
             top_heads = find_largest_k_items(val_acc_all, args.K)
