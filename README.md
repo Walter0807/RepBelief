@@ -1,7 +1,7 @@
 # Language Models Represent Beliefs of Self and Others
 
 <p align="center">
-<a href="https://arxiv.org/", target="_blank">
+<a href="https://arxiv.org/pdf/2402.18496.pdf", target="_blank">
 <img src="https://walter0807.github.io/RepBelief/assets/buttons_paper.png"alt="arXiv" style="width: 120px;"></a>
 <a href="https://walter0807.github.io/RepBelief", target="_blank">
 <img src="https://walter0807.github.io/RepBelief/assets/buttons_cursor.png" alt="Project Page" style="width: 120px;"></a>
