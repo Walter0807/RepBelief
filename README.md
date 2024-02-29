@@ -107,6 +107,7 @@ sh scripts/cross_0_forward_belief_to_backward_belief_interv_o0p1.sh
 @article{zhu2024language,
   title={Language Models Represent Beliefs of Self and Others},
   author={Zhu, Wentao and Zhang, Zhining and Wang, Yizhou},
+  journal={arXiv preprint arXiv:2402.18496},
   year={2024}
 }
 ```
