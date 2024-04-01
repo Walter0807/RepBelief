@@ -3,6 +3,6 @@ seaborn
 matplotlib
 pandas
 pydantic
-transformers
-nnsight
+transformers==4.38.1
+nnsight==0.1.18
 ipdb
