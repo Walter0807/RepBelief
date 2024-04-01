@@ -73,5 +73,5 @@ Answer:"""
             response = self.llm.intervention(prompt, self.interventions_dict, alpha=args.alpha, max_new_tokens=args.max_tokens)
         else:
             prompt = self.prompt.format(instruction=self.instruction, story=story, question=question)
-            response = self.llm(prompt=prompt)
+            response = self.llm(prompt=prompt, max_new_tokens=args.max_tokens)
         return response, -1

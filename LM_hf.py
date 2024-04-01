@@ -54,8 +54,8 @@ class LM_nnsight():
                 pass
         return self.model.tokenizer.decode(generator.output[0])
                 
-    def __call__(self, prompt):
-        ans = self.generate_response(prompt)
+    def __call__(self, prompt, max_new_tokens=2000):
+        ans = self.generate_response(prompt, max_new_tokens)
         return ans
 
     def get_all_states(self, prompt):

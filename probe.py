@@ -154,7 +154,7 @@ def probe_all(all_X, all_y, test_size=0.2, seed=0):
             # print(layer, head)
             X_train = all_X_train[:,layer,head,:]
             X_val = all_X_val[:,layer,head,:]
-            train_acc_all[layer][head], val_acc_all[layer][head], roc_auc_all[layer][head], logloss_all[layer][head], clf = probe_single_case(X_train, y_train, X_val, y_val)
+            train_acc_all[layer][head], val_acc_all[layer][head], roc_auc_all[layer][head], logloss_all[layer][head], clf = probe_single_case(X_train, y_train, X_val, y_val, seed)
             coefs_all[layer][head] = clf.coef_[0]
             # calculate mean 
             true_mass_mean = np.mean(X_train[y_train], axis=0)
