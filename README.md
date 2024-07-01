@@ -105,10 +105,10 @@ sh scripts/cross_0_forward_belief_to_backward_belief_interv_o0p1.sh
 
 ```bibtex
 @inproceedings{
-zhu2024language,
-title={Language Models Represent Beliefs of Self and Others},
-author={Wentao Zhu and Zhining Zhang and Yizhou Wang},
-booktitle={Forty-first International Conference on Machine Learning},
-year={2024}
+    zhu2024language,
+    title={Language Models Represent Beliefs of Self and Others},
+    author={Wentao Zhu and Zhining Zhang and Yizhou Wang},
+    booktitle={Forty-first International Conference on Machine Learning},
+    year={2024}
 }
 ```
