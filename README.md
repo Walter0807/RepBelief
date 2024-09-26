@@ -24,8 +24,8 @@ This repository provides the code for the paper "Language Models Represent Belie
 ```
 conda create -n lm python=3.8 anaconda
 conda activate lm
-# Please install PyTorch according to your CUDA version.
-conda install pytorch torchvision torchaudio pytorch-cuda=11.6 -c pytorch -c nvidia
+# Please install PyTorch (<2.4) according to your CUDA version.
+conda install pytorch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 pytorch-cuda=12.1 -c pytorch -c nvidia
 pip install -r requirements.txt
 ```
 
